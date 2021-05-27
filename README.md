@@ -1,4 +1,9 @@
 # Diploma-Android-Practical
+------------------------------------------------------------------------------------------
+Note : Don't try to copy code of some specific practicals .. if you copied it gives a some kind for error because all android file are connected each other.
+       If you want source cod then download whole file and open in your android studio
+------------------------------------------------------------------------------------------
+
 Student Name - Sanket Supekar
 
 Subject : Programming in Python ( MSBTE Lab Manual Practical)
@@ -6,6 +11,7 @@ Subject : Programming in Python ( MSBTE Lab Manual Practical)
 Department : TY Computer Tech
 
 College : Sanjivani KBP Polytechnic Kopergoan
+
 
 4. Develop a program to display Hello 
 World on screen.

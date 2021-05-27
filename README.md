@@ -23,8 +23,7 @@ View and Edit Text.
 Complete Text View. 
 
 9.Develop a program to implement 
-Button, Image Button and Toggle 
-Button. 
+Button, Image Button and Toggle Button. 
 
 10. Develop a program to implement login
 window using above UI controls. 

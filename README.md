@@ -20,7 +20,7 @@ layout, table layout and relative layout.
 View and Edit Text. 
 
 8. Develop a program to implement Auto
-Complete Text View. 
+Complete Text View.
 
 9.Develop a program to implement 
 Button, Image Button and Toggle Button. 
@@ -35,7 +35,7 @@ Checkbox.
 Button and Radio Group.
 
 13. Develop a program to implement
-Progress Bar. 
+Progress Bar.
 
 14.Develop a program to implement List
 View, Grid View, Image View and Scroll 

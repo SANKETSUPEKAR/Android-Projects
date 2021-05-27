@@ -3,7 +3,8 @@
 Note : 
 
 Java Code -- app/src/main/java/com/computerstudent/madpractical/
-Xml Code -- https://github.com/SANKETSUPEKAR/Diploma-Android-Practical
+
+Xml Code -- app/src/main/java/com/computerstudent/madpractical/
 
 Student Name - Sanket Supekar
 

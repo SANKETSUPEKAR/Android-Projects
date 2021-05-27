@@ -1,8 +1,9 @@
 # Diploma-Android-Practical
 ------------------------------------------------------------------------------------------
-Note : Don't try to copy code of some specific practicals .. if you copied it gives a some kind for error because all android file are connected each other.
-       If you want source code then download whole file and open in your android studio
-------------------------------------------------------------------------------------------
+Note : 
+
+Java Code -- https://github.com/SANKETSUPEKAR/Diploma-Android-Practical
+Xml Code -- https://github.com/SANKETSUPEKAR/Diploma-Android-Practical
 
 Student Name - Sanket Supekar
 

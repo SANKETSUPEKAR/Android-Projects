@@ -1,7 +1,7 @@
 # Diploma-Android-Practical
 ------------------------------------------------------------------------------------------
 Note : Don't try to copy code of some specific practicals .. if you copied it gives a some kind for error because all android file are connected each other.
-       If you want source cod then download whole file and open in your android studio
+       If you want source code then download whole file and open in your android studio
 ------------------------------------------------------------------------------------------
 
 Student Name - Sanket Supekar

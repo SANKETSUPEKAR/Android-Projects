@@ -2,7 +2,7 @@
 ------------------------------------------------------------------------------------------
 Note : 
 
-Java Code -- https://github.com/SANKETSUPEKAR/Diploma-Android-Practical/app/src/main/java/com/computerstudent/madpractical/
+Java Code -- app/src/main/java/com/computerstudent/madpractical/
 Xml Code -- https://github.com/SANKETSUPEKAR/Diploma-Android-Practical
 
 Student Name - Sanket Supekar

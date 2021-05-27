@@ -79,6 +79,17 @@
             android:textStyle="bold">
 
         </Button>
+
+        <Button
+            android:id="@+id/btnPractical9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/Orange"
+            android:text="Practical 9"
+            android:textStyle="bold">
+
+        </Button>
     </LinearLayout>
     <LinearLayout
         android:layout_width="200dp"
@@ -86,16 +97,7 @@
         android:orientation="vertical"
         android:gravity="center"
         android:layout_gravity="center">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:id="@+id/btnPractical9"
-            android:text="Practical 9"
-            android:backgroundTint="@color/Orange"
-            android:textStyle="bold">
 
-        </Button>
         <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -127,6 +129,14 @@
             android:layout_marginTop="30dp"
             android:id="@+id/btnPractical13"
             android:text="Practical 13"
+            android:backgroundTint="@color/Orange"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/btnPractical14"
+            android:text="Practical 14"
             android:backgroundTint="@color/Orange"
             android:textStyle="bold"/>
 

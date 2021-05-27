@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Practical_14.scrollView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:text="Zero"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:text="One"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:text="Two"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:text="Three"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:text="Four"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:text="Five"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:text="Six"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:text="Seven"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:text="Eight"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="50sp"
+            android:gravity="center"
+            android:text="Nine"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</ScrollView>

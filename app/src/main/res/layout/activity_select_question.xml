@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Practical_14.selectQuestion">
+
+    <Button
+        android:id="@+id/btnListView"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Orange"
+        android:onClick="onClick"
+        android:layout_marginTop="30sp"
+        android:text="List View Program" />
+
+    <Button
+        android:id="@+id/btnGridView"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Orange"
+        android:onClick="onClick"
+        android:layout_marginTop="30sp"
+        android:text="Grid View Program" />
+
+    <Button
+        android:id="@+id/btnScrollView"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Orange"
+        android:layout_marginTop="30sp"
+        android:onClick="onClick"
+        android:text="Scroll View Program" />
+
+    <Button
+        android:id="@+id/btnImageChange"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Orange"
+        android:layout_marginTop="30sp"
+        android:onClick="onClick"
+        android:text="Image Change Program" />
+
+</LinearLayout>

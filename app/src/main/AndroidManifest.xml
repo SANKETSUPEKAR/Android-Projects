@@ -9,12 +9,14 @@
         android:roundIcon="@drawable/practical"
         android:supportsRtl="true"
         android:theme="@style/Theme.MADPractical">
-        <activity android:name=".testCode"> </activity>
-        <activity android:name=".MainActivity"><intent-filter>
-            <action android:name="android.intent.action.MAIN" />
 
+        <activity android:name=".testCode" />
+        <activity android:name=".MainActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
+        </intent-filter>
+        </activity>
         <activity
             android:name=".Practical_4.hello_world"
             android:label="MAD Practical 4" />
@@ -42,9 +44,24 @@
         <activity
             android:name=".Practical_12.radioGroup"
             android:label="MAD Practical 12" />
-        <activity android:name=".Practical_13.progressBar"
-            android:label="MAD Practical 13">
-        </activity>
+        <activity
+            android:name=".Practical_13.progressBar"
+            android:label="MAD Practical 13" />
+        <activity
+            android:name=".Practical_14.scrollView"
+            android:label="Scroll View"/>
+        <activity
+            android:name=".Practical_14.imageChange"
+            android:label="Image Change"/>
+        <activity
+            android:name=".Practical_14.selectQuestion"
+            android:label="Select Question"/>
+        <activity
+            android:name=".Practical_14.gridView"
+            android:label="Grid View" />
+        <activity
+            android:name=".Practical_14.listView"
+            android:label="List View" />
     </application>
 
 </manifest>

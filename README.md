@@ -4,7 +4,7 @@ Note :
 
 Java Code -- app/src/main/java/com/computerstudent/madpractical/
 
-Xml Code -- app/src/main/java/com/computerstudent/madpractical/
+Xml Code -- app/src/main/res/layout/
 
 Student Name - Sanket Supekar
 

@@ -15,6 +15,7 @@ import com.computerstudent.madpractical.Practical_12.radioGroup;
 import com.computerstudent.madpractical.Practical_13.progressBar;
 import com.computerstudent.madpractical.Practical_14.selectQuestion;
 import com.computerstudent.madpractical.Practical_15.coustomToast;
+import com.computerstudent.madpractical.Practical_16.selectQuestionPractical16;
 import com.computerstudent.madpractical.Practical_4.hello_world;
 import com.computerstudent.madpractical.Practical_5.student_info;
 import com.computerstudent.madpractical.Practical_6.frame_example;
@@ -26,7 +27,8 @@ import com.google.firebase.storage.StorageReference;
 public class MainActivity extends AppCompatActivity  {
 
     Button btnPractical4,btnPractical5,btnPractical6,btnPractical7,btnPractical8,
-            btnPractical9,btnPractical10,btnPractical11,btnPractical12,btnPractical13,btnPractical14,btnPractical15;
+            btnPractical9,btnPractical10,btnPractical11,btnPractical12,btnPractical13,
+            btnPractical14,btnPractical15,btnPractical16;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,9 +47,7 @@ public class MainActivity extends AppCompatActivity  {
         btnPractical13.setOnClickListener(this::onClick);
         btnPractical14.setOnClickListener(this::onClick);
         btnPractical15.setOnClickListener(this::onClick);
-
-
-
+        btnPractical16.setOnClickListener(this::onClick);
 
     }
     void setUIComponent()
@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity  {
         btnPractical13=findViewById(R.id.btnPractical13);
         btnPractical14=findViewById(R.id.btnPractical14);
         btnPractical15=findViewById(R.id.btnPractical15);
+        btnPractical16=findViewById(R.id.btnPractical16);
 
 
     }
@@ -92,6 +93,8 @@ public class MainActivity extends AppCompatActivity  {
             startActivity(new Intent(this, selectQuestion.class));
         } else if (btnPractical15.equals(v)) {
             startActivity(new Intent(this, coustomToast.class));
+        }else if (btnPractical16.equals(v)) {
+            startActivity(new Intent(this, selectQuestionPractical16.class));
         } else {
             throw new IllegalStateException("Unexpected value: " + v.getId());
         }

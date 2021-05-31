@@ -9,11 +9,8 @@
         android:roundIcon="@drawable/practical"
         android:supportsRtl="true"
         android:theme="@style/Theme.MADPractical">
-        <activity android:name=".Practical_15.coustomToast"
-            android:label="Customs Toast">
 
-        </activity>
-        <activity android:name=".testCode" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
         <activity
             android:name=".Practical_4.hello_world"
             android:label="MAD Practical 4" />
@@ -66,6 +65,17 @@
         <activity
             android:name=".Practical_14.listView"
             android:label="List View" />
+        <activity
+            android:name=".Practical_15.coustomToast"
+            android:label="Customs Toast" />
+        <activity
+            android:name=".Practical_16.timePiker"
+            android:label="Time Picker"/>
+        <activity
+            android:name=".Practical_16.datePicker"
+            android:label="Date Picker"/>
+        <activity android:name=".Practical_16.selectQuestionPractical16"
+            android:label="Select Question"/>
     </application>
 
 </manifest>

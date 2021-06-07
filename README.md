@@ -8,7 +8,7 @@ Xml Code -- app/src/main/res/layout/
 
 Student Name - Sanket Supekar
 
-Subject : Programming in Python ( MSBTE Lab Manual Practical)
+Subject : Mobile Application Development ( MSBTE Lab Manual Practical)
 
 Department : TY Computer Tech
 

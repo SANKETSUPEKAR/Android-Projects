@@ -16,6 +16,12 @@ import com.computerstudent.madpractical.Practical_13.progressBar;
 import com.computerstudent.madpractical.Practical_14.selectQuestion;
 import com.computerstudent.madpractical.Practical_15.coustomToast;
 import com.computerstudent.madpractical.Practical_16.selectQuestionPractical16;
+import com.computerstudent.madpractical.Practical_17.lifeCycle;
+import com.computerstudent.madpractical.Practical_18.explicitIntent;
+import com.computerstudent.madpractical.Practical_19.broadcastReceiver;
+import com.computerstudent.madpractical.Practical_20.sensorExample;
+import com.computerstudent.madpractical.Practical_21.cameraExample;
+import com.computerstudent.madpractical.Practical_22.bluetoothExample;
 import com.computerstudent.madpractical.Practical_4.hello_world;
 import com.computerstudent.madpractical.Practical_5.student_info;
 import com.computerstudent.madpractical.Practical_6.frame_example;
@@ -28,26 +34,14 @@ public class MainActivity extends AppCompatActivity  {
 
     Button btnPractical4,btnPractical5,btnPractical6,btnPractical7,btnPractical8,
             btnPractical9,btnPractical10,btnPractical11,btnPractical12,btnPractical13,
-            btnPractical14,btnPractical15,btnPractical16;
+            btnPractical14,btnPractical15,btnPractical16,
+            btnPractical17,btnPractical18,btnPractical19,btnPractical20,btnPractical21,btnPractical22;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setUIComponent();
-        btnPractical4.setOnClickListener(this::onClick);
-        btnPractical5.setOnClickListener(this::onClick);
-        btnPractical6.setOnClickListener(this::onClick);
-        btnPractical7.setOnClickListener(this::onClick);
-        btnPractical8.setOnClickListener(this::onClick);
-        btnPractical9.setOnClickListener(this::onClick);
-        btnPractical10.setOnClickListener(this::onClick);
-        btnPractical11.setOnClickListener(this::onClick);
-        btnPractical12.setOnClickListener(this::onClick);
-        btnPractical13.setOnClickListener(this::onClick);
-        btnPractical14.setOnClickListener(this::onClick);
-        btnPractical15.setOnClickListener(this::onClick);
-        btnPractical16.setOnClickListener(this::onClick);
 
     }
     void setUIComponent()
@@ -65,6 +59,14 @@ public class MainActivity extends AppCompatActivity  {
         btnPractical14=findViewById(R.id.btnPractical14);
         btnPractical15=findViewById(R.id.btnPractical15);
         btnPractical16=findViewById(R.id.btnPractical16);
+        btnPractical17=findViewById(R.id.btnPractical17);
+        btnPractical18=findViewById(R.id.btnPractical18);
+        btnPractical19=findViewById(R.id.btnPractical19);
+        btnPractical20=findViewById(R.id.btnPractical20);
+        btnPractical21=findViewById(R.id.btnPractical21);
+        btnPractical22=findViewById(R.id.btnPractical22);
+
+
 
 
     }
@@ -95,7 +97,20 @@ public class MainActivity extends AppCompatActivity  {
             startActivity(new Intent(this, coustomToast.class));
         }else if (btnPractical16.equals(v)) {
             startActivity(new Intent(this, selectQuestionPractical16.class));
-        } else {
+        }else if (btnPractical17.equals(v)) {
+            startActivity(new Intent(this, lifeCycle.class));
+        } else if (btnPractical18.equals(v)) {
+            startActivity(new Intent(this, explicitIntent.class));
+        }else if (btnPractical19.equals(v)) {
+            startActivity(new Intent(this, broadcastReceiver.class));
+        } else if (btnPractical20.equals(v)) {
+            startActivity(new Intent(this, sensorExample.class));
+        }else if (btnPractical21.equals(v)) {
+            startActivity(new Intent(this, cameraExample.class));
+        }else if (btnPractical22.equals(v)) {
+            startActivity(new Intent(this, bluetoothExample.class));
+        }
+        else {
             throw new IllegalStateException("Unexpected value: " + v.getId());
         }
     }

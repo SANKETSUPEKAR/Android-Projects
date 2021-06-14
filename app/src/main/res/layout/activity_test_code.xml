@@ -1,23 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     tools:context=".testCode">
-
     <TextView
-        android:id = "@+id/txt1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="hello"/>
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/me"
+        android:text="Sanket Supekar (TYCM-B)"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic">
 
-    <Button
-        android:id="@+id/btn1"
+    </TextView>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_below="@+id/me"
+        android:gravity="center">
 
-</LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnPractical4"
+                android:layout_marginTop="30dp"
+                android:text="Practical 4"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold"
+                >
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnPractical5"
+                android:layout_marginTop="30dp"
+                android:text="Practical 5"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold">
+            </Button>
+
+            <Button
+                android:id="@+id/btnPractical6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/Orange"
+                android:text="Practical 6"
+                android:textStyle="bold">
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnPractical7"
+                android:text="Practical 7"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnPractical8"
+                android:text="Practical 8"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btnPractical9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/Orange"
+                android:text="Practical 9"
+                android:textStyle="bold">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnPractical10"
+                android:text="Practical 10"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnPractical11"
+                android:text="Practical 11"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnPractical12"
+                android:text="Practical 12"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnPractical13"
+                android:text="Practical 13"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnPractical14"
+                android:text="Practical 14"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnPractical15"
+                android:text="Practical 15"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnPractical16"
+                android:text="Practical 16"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnPractical17"
+                android:text="Practical 17"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnPractical18"
+                android:text="Practical 18"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnPractical19"
+                android:text="Practical 19"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnPractical20"
+                android:text="Practical 20"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnPractical21"
+                android:text="Practical 21"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btnPractical22"
+                android:text="Practical 22"
+                android:backgroundTint="@color/Orange"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

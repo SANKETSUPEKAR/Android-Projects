@@ -144,16 +144,6 @@
                     android:onClick="onClick"
                     android:text="Practical 13"
                     android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="200dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:orientation="vertical">
-
-
                 <Button
                     android:id="@+id/btnPractical14"
                     android:layout_width="wrap_content"
@@ -173,6 +163,14 @@
                     android:onClick="onClick"
                     android:text="Practical 15"
                     android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <Button
                     android:id="@+id/btnPractical16"
@@ -253,6 +251,46 @@
                     android:onClick="onClick"
                     android:text="Practical 23"
                     android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btnPractical24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/Orange"
+                    android:onClick="onClick"
+                    android:text="Practical 24"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnPractical25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/Orange"
+                    android:onClick="onClick"
+                    android:text="Practical 25"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnPractical26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/Orange"
+                    android:onClick="onClick"
+                    android:text="Practical 26"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnPractical27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/Orange"
+                    android:onClick="onClick"
+                    android:text="Practical 27"
+                    android:textStyle="bold" />
+
 
 
             </LinearLayout>

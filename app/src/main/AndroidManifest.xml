@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.computerstudent.madpractical">
+
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
     <application
         android:allowBackup="true"
         android:icon="@drawable/practical"
@@ -14,12 +16,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MADPractical">
 
-        <activity android:name=".MainActivity">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".Practical_4.hello_world"
@@ -80,23 +83,41 @@
             android:label="Select Question" />
         <activity
             android:name=".Practical_17.lifeCycle"
-            android:label="Practical 17"/>
-        <activity android:name=".Practical_18.explicitIntent"
-            android:label="Explicit Intent"/>
+            android:label="Practical 17" />
+        <activity
+            android:name=".Practical_18.explicitIntent"
+            android:label="Explicit Intent" />
+        <activity
+            android:name=".Practical_18.implicitIntent"
+            android:label="Implicit Intent" />
+        <activity
+            android:name=".Practical_19.broadcastReceiver"
+            android:label="Broadcast Receiver" />
+        <activity
+            android:name=".Practical_20.sensorExample"
+            android:label="Sensor Example" />
+        <activity
+            android:name=".Practical_21.cameraExample"
+            android:label="Camera Example" />
+        <activity
+            android:name=".Practical_22.bluetoothExample"
+            android:label="Bluetooth Example" />
+        <activity
+            android:name=".Practical_23.asyncTask"
+            android:label="Async Task Example"/>
+        <activity
+            android:name=".Practical_24.loginForm2"
+            android:label="Login Form Example"/>
+        <activity
+            android:name=".Practical_25.loginForm3"
+            android:label="Login Form (Disable Button)"/>
+        <activity
+            android:name=".Practical_26.sendSMSActivity"
+            android:label="Send SMS Example"/>
+        <activity
+            android:name=".Practical_27.sendEmail"
+            android:label="Send Email Example"/>
 
-        <activity android:name=".Practical_18.implicitIntent"
-            android:label="Implicit Intent"/>
-
-        <activity android:name=".Practical_19.broadcastReceiver"
-            android:label="Broadcast Receiver"/>
-
-        <activity android:name=".Practical_20.sensorExample"
-            android:label="Sensor Example"/>
-        <activity android:name=".Practical_21.cameraExample"
-            android:label="Camera Example"/>
-
-        <activity android:name=".Practical_22.bluetoothExample"
-            android:label="Bluetooth Example"/>
     </application>
 
 </manifest>

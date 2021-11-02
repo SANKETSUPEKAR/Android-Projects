@@ -22,6 +22,11 @@ import com.computerstudent.madpractical.Practical_19.broadcastReceiver;
 import com.computerstudent.madpractical.Practical_20.sensorExample;
 import com.computerstudent.madpractical.Practical_21.cameraExample;
 import com.computerstudent.madpractical.Practical_22.bluetoothExample;
+import com.computerstudent.madpractical.Practical_23.asyncTask;
+import com.computerstudent.madpractical.Practical_24.loginForm2;
+import com.computerstudent.madpractical.Practical_25.loginForm3;
+import com.computerstudent.madpractical.Practical_26.sendSMSActivity;
+import com.computerstudent.madpractical.Practical_27.sendEmail;
 import com.computerstudent.madpractical.Practical_4.hello_world;
 import com.computerstudent.madpractical.Practical_5.student_info;
 import com.computerstudent.madpractical.Practical_6.frame_example;
@@ -34,8 +39,9 @@ public class MainActivity extends AppCompatActivity  {
 
     Button btnPractical4,btnPractical5,btnPractical6,btnPractical7,btnPractical8,
             btnPractical9,btnPractical10,btnPractical11,btnPractical12,btnPractical13,
-            btnPractical14,btnPractical15,btnPractical16,
-            btnPractical17,btnPractical18,btnPractical19,btnPractical20,btnPractical21,btnPractical22;
+            btnPractical14,btnPractical15,btnPractical16,btnPractical17,btnPractical18,
+            btnPractical19,btnPractical20,btnPractical21,btnPractical22,
+            btnPractical23,btnPractical24,btnPractical25,btnPractical26,btnPractical27;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +71,13 @@ public class MainActivity extends AppCompatActivity  {
         btnPractical20=findViewById(R.id.btnPractical20);
         btnPractical21=findViewById(R.id.btnPractical21);
         btnPractical22=findViewById(R.id.btnPractical22);
+        btnPractical23=findViewById(R.id.btnPractical23);
+        btnPractical24=findViewById(R.id.btnPractical24);
+        btnPractical25=findViewById(R.id.btnPractical25);
+        btnPractical26=findViewById(R.id.btnPractical26);
+        btnPractical27=findViewById(R.id.btnPractical27);
+
+
 
 
 
@@ -109,6 +122,16 @@ public class MainActivity extends AppCompatActivity  {
             startActivity(new Intent(this, cameraExample.class));
         }else if (btnPractical22.equals(v)) {
             startActivity(new Intent(this, bluetoothExample.class));
+        }else if (btnPractical23.equals(v)) {
+            startActivity(new Intent(this, asyncTask.class));
+        }else if (btnPractical24.equals(v)) {
+            startActivity(new Intent(this, loginForm2.class));
+        }else if (btnPractical25.equals(v)) {
+            startActivity(new Intent(this, loginForm3.class));
+        }else if (btnPractical26.equals(v)) {
+            startActivity(new Intent(this, sendSMSActivity.class));
+        }else if (btnPractical27.equals(v)) {
+            startActivity(new Intent(this, sendEmail.class));
         }
         else {
             throw new IllegalStateException("Unexpected value: " + v.getId());
